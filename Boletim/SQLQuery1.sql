@@ -49,3 +49,26 @@ ALTER TABLE Trabalho ADD DataEntrega DATETIME;
 -- Alteramos e ecluímos uma coluna de teste
 -- ALTER TABLE Trabalho ADD Teste INT;
 -- ALTER TABLE Trabalho DROP COLUMN Teste;
+
+
+
+/* DML - Data Manipultaion Language*/
+-- INSERT - Inserir
+	INSERT INTO Aluno(Nome, Ra, Idade) VALUES('Gabriel','R123459', 17);
+
+-- UPDATE - Alterar
+	UPDATE Aluno SET 
+		Idade = 15
+		WHERE IdAluno = 2;
+
+
+
+--	DELETE - Excluir
+	--DELETE FROM Trabalho;
+	--DELETE FROM Aluno;
+	--DELETE FROM Materia;
+
+	DELETE FROM Aluno WHERE IdAluno = 3;
+
+/* DQL - SELECT */
+	SELECT * FROM Aluno;
