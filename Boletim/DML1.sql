@@ -1,9 +1,9 @@
 /* DML - Data Manipultaion Language*/
 -- INSERT - Inserir
-	INSERT INTO Aluno(Nome, Ra, Idade) VALUES('Gabriel','R123459', 17);
+	INSERT INTO Aluno(Nome, Ra, Idade) VALUES('Kaua','R123451', 16);
 	INSERT INTO Materia(Titulo) VALUES('Matemática');
 	INSERT INTO Materia(Titulo) VALUES('Português');
-	INSERT INTO Trabalho(Nota, DataEntrega, IdAluno, IdMateria) VALUES(9.7, '2020-08-05T23:59:59', 1, 2)
+	INSERT INTO Trabalho(Nota, DataEntrega, IdAluno, IdMateria) VALUES(8.5, '2020-08-05T10:59:59', 2, 2)
 
 
 -- UPDATE - Alterar
