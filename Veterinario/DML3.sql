@@ -6,6 +6,10 @@ INSERT INTO MedicoVeterinario(Nome, CRV, IdClinica) VALUES('Ricardo', 12562, 1);
 INSERT INTO TipoPet(Descricao) VALUES('Ave');
 INSERT INTO Raca(Descricao, IdTipoPet) VALUES('Calopsita', 2);
 INSERT INTO Pet(Nome, DataNascimento,IdRaca,IdDono) VALUES('Luffy', '2018-08-05T15:59:59', 2, 3)
+INSERT INTO Atendimento(Descricao, DataAtendimento, IdPet, IdMedicoVeterinario)	VALUES
+	('Atendido', '2020-08-04',2, 1),
+	('Espere', '2020-08-04',3, 1),
+	('Espere', '2020-08-04',1, 1);
 
 
 /* DQL - SELECT */
@@ -15,4 +19,5 @@ SELECT * FROM MedicoVeterinario;
 SELECT * FROM TipoPet;
 SELECT * FROM Raca;
 SELECT * FROM Pet;
+SELECT * FROM Atendimento;
 

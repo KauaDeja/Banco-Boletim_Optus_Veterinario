@@ -72,3 +72,15 @@ CREATE TABLE Pet(
 	IdDono			INT FOREIGN KEY REFERENCES Dono(IdDono)
 );
 GO
+
+-- Criamos a Tabela Atendimento
+
+CREATE TABLE Atendimento (
+	IdAtendimento			INT PRIMARY KEY IDENTITY NOT NULL,
+	Descricao				VARCHAR(30),
+	DataAtendimento			VARCHAR(50),
+
+	IdPet					INT FOREIGN KEY REFERENCES Pet(IdPet),
+	IdMedicoVeterinario		INT FOREIGN KEY REFERENCES MedicoVeterinario(IdMedicoVeterinario)
+);
+GO
