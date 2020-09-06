@@ -1,8 +1,8 @@
 /* DDL - Data Definition Language */
-CREATE DATABASE veterinario;
+CREATE DATABASE Pets;
 GO
 -- Usar efetivamente o banco
-USE veterinario;
+USE Pets;
 GO
 
 /* 

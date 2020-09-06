@@ -1,4 +1,4 @@
-USE veterinario;
+USE Pets;
 /* DQL - Data Query Language */
 SELECT * FROM Dono;
 
@@ -25,4 +25,3 @@ SELECT * FROM TipoPet WHERE IdTipoPet > 0 AND IdTipoPet < 3;
 -- Selecionar dados ENTRE valores específicos
 SELECT * FROM Pet WHERE 
 	DataNascimento BETWEEN '2018-08-05T15:59:59' AND '2018-08-05T23:59:59';
-

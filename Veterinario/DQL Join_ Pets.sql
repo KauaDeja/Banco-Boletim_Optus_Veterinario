@@ -1,5 +1,5 @@
 /* DQL - JOINS*/
-USE veterinario;
+USE Pets;
 
 SELECT 
 	Pet.Nome,
